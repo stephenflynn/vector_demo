@@ -18,7 +18,7 @@ deploy:
       K3ltV2xqTkYrL1BKUEhxeXBiMk04Z29xaDN4NWVrZFhBREw3WXlDbUgrWC9aWnVLTDM2azBOVWc9
   user: stephenflynn
   true:
-    python: 2.7
+    python: 3.5
     repo: stephenflynn/vector_demo
     tags: true
 install: pip install -U tox-travis

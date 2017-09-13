@@ -28,7 +28,9 @@ A basic implementation of a Vector as a Python object.
 Features
 --------
 
-* TODO
+* Vector magnitude calculation.
+* Calculation of dot product between two vectors.
+* Calculation of Cosine of the angle between two vectors.
 
 Credits
 ---------

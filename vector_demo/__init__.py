@@ -4,6 +4,6 @@
 
 __author__ = """Stephen Flynn"""
 __email__ = 'dev@stephenflynn.net'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 from .vector import Vector

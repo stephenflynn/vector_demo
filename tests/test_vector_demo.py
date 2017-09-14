@@ -63,7 +63,7 @@ def test_angle_rad(setup_vectors):
 
 def test_angle_deg(setup_vectors):
     vectors = setup_vectors
-    assert vectors[4].angle(vectors[5],'deg') == 17.548400613792293
+    assert vectors[4].angle(vectors[5], 'deg') == 17.548400613792293
 
 
 def test_angle_exception(setup_vectors):

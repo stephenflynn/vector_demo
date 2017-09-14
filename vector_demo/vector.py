@@ -5,7 +5,17 @@ import math
 
 
 class Vector:
+    """A basic class that enables vector calculations.
+    """
+
     def __init__(self, identifier, value):
+        """
+        Init method for Vector.
+
+        Args:
+            identifier: (mixed)  This can be any value.  Not used, can hold identifying information if necessary.
+            value: (dictionary) A dictionary containing the components of the vector eg: {'x':1, 'y':4, 'z':2}.
+        """
         self.id = identifier
         self.value = value
 
@@ -28,6 +38,9 @@ class Vector:
 
         Args:
             second_vector: (object) A Vector object.
+
+        Raises:
+            ValueError: If one of the vectors has no components.
 
         Returns:
             int: The dot product.

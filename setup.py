@@ -24,7 +24,7 @@ test_requirements = [
 
 setup(
     name='vector_demo',
-    version='0.1.1',
+    version='0.2.0',
     description="A basic implementation of a Vector as a Python object.",
     long_description=readme + '\n\n' + history,
     author="Stephen Flynn",

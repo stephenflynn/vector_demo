@@ -43,7 +43,7 @@ class Vector:
         return dot_prod
 
     def cosine_of_angle(self, second_vector):
-        """This method calculates the cosine of the angle between this instances method and a second vector.
+        """This method calculates the cosine of the angle between this instance's method and a second vector.
 
         This is also the 'cosine similarity'.
 
@@ -55,6 +55,28 @@ class Vector:
 
         """
         return self.dot_product(second_vector) / (self.magnitude() * second_vector.magnitude())
+
+    def angle(self, second_vector, units='rad'):
+        """This method calculates the angle between this vector and a second vector.
+
+        Args:
+            second_vector: (object) A Vector object.
+            units: (string) A string indication desired output format.  Radians (rad) or Degrees (deg)
+
+        Raises:
+            ValueError: In the event the units value is not recognised.
+
+        Return:
+            float: The angle between the two vectors.
+
+        """
+        angle = math.acos(self.cosine_of_angle(second_vector))
+        if units == 'rad':
+            return angle
+        elif units == 'deg':
+            return (angle * 180) / math.pi
+        else:
+            raise ValueError('Incorrect value for units parameter.')
 
     def __eq__(self, other):
         """Magic method to handle comparing Vector objects.

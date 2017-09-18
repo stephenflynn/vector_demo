@@ -28,7 +28,7 @@ setup(
     description="A basic implementation of a Vector as a Python object.",
     long_description=readme + '\n\n' + history,
     author="Stephen Flynn",
-    author_email='***REMOVED***',
+    author_email='dev@stephenflynn.net',
     url='https://github.com/stephenflynn/vector_demo',
     packages=find_packages(include=['vector_demo']),
     include_package_data=True,

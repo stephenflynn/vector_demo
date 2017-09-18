@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Stephen Flynn <***REMOVED***>
+* Stephen Flynn <dev@stephenflynn.net>
 
 Contributors
 ------------

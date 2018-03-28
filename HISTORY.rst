@@ -2,6 +2,11 @@
 History
 =======
 
+0.3.0 (2018-03-27)
+------------------
+
+* Added angle method to get angle between vectors.
+
 0.2.1 (2017-09-14)
 ------------------
 
